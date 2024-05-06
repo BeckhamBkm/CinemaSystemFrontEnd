@@ -2,22 +2,34 @@
     display: inline-block;
     margin: 0px;
     width: 100%;
-    height: 725px;
+    height: auto;
     background-color: darkblue;
 }
 
 .movies-center{
-    margin: 150px 0px 0px 70px;
-    width: 90%;
-    height: 550px;
+    margin: 150px 0px 0px 125px;
+    width: 83.5%;
+    height: auto;
     display: grid;
     grid-template-columns: 0fr 0fr 0fr 0fr 0fr 0fr;
 }
 
 .movie-card{
-    border-radius: 5px;
-    margin: 10px;
-    width: 210px;
-    height: 250px;
+    margin: 0px 12.5px 65px 0px;
+    width: 201px;
+    height: 400px;
     background-color: yellow;
+    display: inline-block;
+}
+
+.movie-card-pic{
+    width: 201px;
+    height: 270px;
+    background-color: green;
+}
+
+.movie-card-footer{
+    width: 201px;
+    height: 130px;
+    background-color: white;
 }
