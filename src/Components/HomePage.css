@@ -1,0 +1,23 @@
+.home-center{
+    display: inline-block;
+    margin: 0px;
+    width: 100%;
+    height: 725px;
+    background-color: darkblue;
+}
+
+.movies-center{
+    margin: 150px 0px 0px 70px;
+    width: 90%;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr 0fr 0fr;
+}
+
+.movie-card{
+    border-radius: 5px;
+    margin: 10px;
+    width: 210px;
+    height: 250px;
+    background-color: yellow;
+}
