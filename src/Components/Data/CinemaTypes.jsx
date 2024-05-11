@@ -1,0 +1,30 @@
+export const CinemaTypes = [
+    {
+        id:"0",
+        name:"2D"
+    },
+    {
+        id:"1",
+        name:"3D"
+    },
+    {
+        id:"2",
+        name:"IMAX"
+    },
+    {
+        id:"3",
+        name:"Kids"
+    },
+    {
+        id:"4",
+        name:"Prestige"
+    },
+    {
+        id:"5",
+        name:"DBOX"
+    },
+    {
+        id:"6",
+        name:"Nouveau"
+    }
+]
