@@ -1,3 +1,7 @@
+body{
+    background-color: #0b0d0f;
+    color: white;
+}
 .movie-top{
     margin: 0px 0px 0px 125px;
     height: 300px;
@@ -5,17 +9,33 @@
     display: inline-block;
 }
 
+.status-header{
+    font-size: 18px;
+}
+
+.status-header::after{
+    content: "";
+    position: absolute;
+    background:#0089d0;
+    z-index: 1;
+    box-shadow: 0 0 15px 1px #0089d0;
+}
 .search-box{
     height: 80px;
     width: 100%;
     margin-top: 50px;
     border-radius: 5px;
     color: #96989a;
-    background-color: #1e2023;
+    background-color: #212326;
     outline: none;
     border: none;
     font-size: 35px;
 }
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .filter-box-container{
     margin: 30px 0px 0px 0px;
@@ -29,12 +49,27 @@
    width: 250px;
    border-radius: 3px;
    color: 96989a;
-    /* background-color: #020000; */
-    background-color: wheat;
+    background-color: #020000;
+    /* background-color: wheat; */
+    color: wheat;
+    border-style: none;
+    outline: none;
+    font-size: 16px;
     margin-top: 7px;
     margin-left: 20px;
     display: inline-block;   
 }
+
+.filter-box:focus{
+    background-color: wheat;
+    color: #020000;  
+}
+
+.filter-box option{
+    font-size: 18px;
+}
+
+
 
 .show-status{
     width: 390px;
@@ -55,11 +90,10 @@
 
 .home-center{
     display: inline-block;
-    margin-top: 20px;
     width: 100%;
-    height: auto;
-    background-color: #0b0d0f;
-    color: white;
+    height: 1200px;
+    max-height: auto; 
+    margin-top: 100px;
 }
 
 .movies-center{

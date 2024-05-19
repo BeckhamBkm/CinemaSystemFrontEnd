@@ -1,0 +1,8 @@
+.nav-content{
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
