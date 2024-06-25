@@ -5,7 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Home Page
 ![image](https://github.com/BeckhamBkm/CinemaSystemFrontEnd/assets/61312229/fb244d12-b258-4669-a757-5af759a32141)
 ![image](https://github.com/BeckhamBkm/CinemaSystemFrontEnd/assets/61312229/91809dd0-b182-4138-9658-cbcabaaf1905)
-![Uploading image.png…]()
+![image](https://github.com/BeckhamBkm/CinemaSystemFrontEnd/assets/61312229/2fe6eff7-3ff0-4406-bb8a-438dea34b0db)
+
 
 
 
