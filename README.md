@@ -3,9 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Home Page
-![image](https://github.com/BeckhamBkm/CinemaSystemFrontEnd/assets/61312229/6acdefd3-53d7-4d57-ae41-63a145408999)
-![image](https://github.com/BeckhamBkm/CinemaSystemFrontEnd/assets/61312229/3e5ca4a8-dd30-4775-a6db-d4a72b47753a)
-![image](https://github.com/BeckhamBkm/CinemaSystemFrontEnd/assets/61312229/cb7c1e30-b880-4675-991d-dd218d9246ab)
+![image](https://github.com/BeckhamBkm/CinemaSystemFrontEnd/assets/61312229/fb244d12-b258-4669-a757-5af759a32141)
+![image](https://github.com/BeckhamBkm/CinemaSystemFrontEnd/assets/61312229/91809dd0-b182-4138-9658-cbcabaaf1905)
+![Uploading image.png…]()
+
 
 
 
