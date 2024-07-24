@@ -1,31 +1,38 @@
 export const Cinemas = [
     {
         id:"0",
-        name:"STERLAND"
+        name:"STERLAND",
+        province:"GAUTENG"
     },
     {
         id:"1",
-        name:"BEDFORD SQUARE"
+        name:"BEDFORD SQUARE",
+        province:"GAUTENG"
     },
     {
         id:"2",
-        name:"CARNIVAL CITY"
+        name:"CARNIVAL CITY",
+        province:"GAUTENG"
     },
     {
         id:"3",
-        name:"CENTURION"
+        name:"CENTURION",
+        province:"GAUTENG"
     },
     {
         id:"4",
-        name:"FOURWAYS"
+        name:"FOURWAYS",
+        province:"GAUTENG"
     },
     {
         id:"5",
-        name:"IRENE MALL"
+        name:"IRENE MALL",
+        province:"GAUTENG"
     },
     {
         id:"6",
-        name:"SANDTON"
+        name:"SANDTON",
+        province:"GAUTENG"
     }
 
 ]

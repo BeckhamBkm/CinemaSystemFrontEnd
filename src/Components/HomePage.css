@@ -6,7 +6,54 @@ body{
     margin: 0px 0px 0px 125px;
     height: 300px;
     width: 83.5%;
-    display: inline-block;
+}
+
+.home-carousel{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.carousel-progress{
+    display: flex;
+    height: 20px;
+    width: 400px;
+    margin-top: 17%;
+    position: absolute;
+    margin-left: 9%;
+}
+
+.progres-circles{
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+    border-radius: 50px;
+}
+
+.progres-circles:hover{
+    background-color: white;
+
+}
+
+.carousel-arrows-container{
+    display: flex;
+    margin-left: 20px;
+    color: darkgray;
+    height: 80px;
+    width: 97%;
+    position: absolute;
+    margin-top: 7%;
+    justify-content: space-between;
+}
+
+.chevron{
+    font-size: 80px;
+}
+
+.chevron:hover{
+    color: white;
 }
 
 .status-header{
@@ -91,18 +138,21 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 .home-center{
     display: inline-block;
     width: 100%;
-    height: 1200px;
     max-height: auto; 
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 .movies-center{
     margin: 60px 0px 0px 125px;
     width: 83.5%;
-    /* height: 574px; */
     height: auto;
     display: grid;
     grid-template-columns: 0fr 0fr 0fr 0fr 0fr 0fr;
+}
+
+.carousel-image{
+    height: 100%;
+    width: 100%;
 }
 
 .movie-card{

@@ -1,0 +1,56 @@
+body{
+    overflow-y:auto;
+}
+
+.MainCenter{
+    width: 90%;
+    height: 1000;
+    background-color: #0B0D0A;
+}
+.PageBlock{
+    margin-top: 25%;
+    margin-left: 9%;
+    width: 60%;
+    height: 1000px;
+    margin-bottom: 150px;
+    background-color: #16191c
+}
+
+.CenterBlock{
+    margin-left: 15%;
+    width: 75%;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(17,1fr);
+}
+
+
+.ChairContainer{
+    display: inline-block;
+    width: 30px;
+    height: 23px;
+}
+
+.SeatHead{
+    border-radius: 50px;
+    margin-left: 1px;
+    margin-top: 2px;
+    width: 23px;
+    height: 4px;
+    background-color: #a9abae;
+
+}
+.SeatBody{
+    border-radius: 3px;
+    width: 25px;
+    height: 13px;
+    background-color: #a9abae;
+
+}
+
+.DetailsBlock{
+    margin-left: 75%;
+    width: 20%;
+    height: 300px;
+    background-color: purple;
+}

@@ -8,14 +8,14 @@ import '../Components/HomePage.css'
 import SearchMovies from '../Functions/SearchMovies';
 import Footer from './Footer';
 import Navbar from './Navbar';
+import { GoSearch,GoChevronLeft,GoChevronRight } from "react-icons/go";
 
-export default function HomePage() {
-const [searchQuery,setSearchQuery] = useState('')
-const [genre,setGenre] = useState('')
-const [selectedOption, setSelectedOption] = useState('');
+const HomePage =()=> {
+const [searchQuery,setSearchQuery] = useState('');
+const [genre,setGenre] = useState('');
+const [showType,setShowType] = useState('')
 
   const handleSelect = (event) => {
-    setSelectedOption(event.target.value);
     event.target.blur(); // This line makes the selected option lose focus
   };
 
@@ -23,17 +23,40 @@ const [selectedOption, setSelectedOption] = useState('');
     <div>
         <Navbar />
         <div className='home-center'>
-            <div className='movie-top' >
-                <input onTouchCancelCapture={false} type='search' placeholder='Search for a movie' className='search-box' onChange={(e)=>setSearchQuery(e.target.value)} ></input>
+        <div className='home-carousel' >
+            <img className='carousel-image' src={'https://www.sterkinekor.com/sites/default/files/2024-05/BB4_FeatureBanner1920x640Desktop.jpg'}></img>
+            <div className='carousel-arrows-container' >
+                <span className='chevron' ><GoChevronLeft /></span>
+                <span className='chevron' ><GoChevronRight /></span>
+                <div className='carousel-progress' >
+
+                <div className='progres-circles' ></div>
+                <div className='progres-circles' ></div>
+                <div className='progres-circles' ></div>
+                <div className='progres-circles' ></div>
+                <div className='progres-circles' ></div>
+                <div className='progres-circles' ></div>
+                <div className='progres-circles' ></div>
+                <div className='progres-circles' ></div>
+                <div className='progres-circles' ></div>
+                <div className='progres-circles' ></div>
+                <div className='progres-circles' ></div>
+                <div className='progres-circles' ></div>
+            </div>
+            </div>
+        </div>
+        
+            <div className='movie-top' >              
+                <input  onTouchCancelCapture={false} type='search' placeholder={'Search for a movie'} className='search-box' onChange={(e)=>setSearchQuery(e.target.value)} ></input>
                 <div className='filter-box-container' >
                     <p>Filter by:</p>
                     <select onChange={handleSelect} className='filter-box'>
                         <option hidden={true} >Cinemas</option>
                         {Cinemas.map((cinema)=>(
-                        <option>{cinema.name}</option>
+                        <option style={{display:'list-item'}} >{cinema.name}</option>
                     ))}</select>
 
-                    <select onChange={handleSelect} className='filter-box'>
+                    <select onChange={(e)=>[handleSelect,setShowType(e.target.value)]}  className='filter-box'>
                     <option hidden={true}>Cinema Type</option>
                     {CinemaTypes.map((cinemaType)=>(
                         <option>{cinemaType.name}</option>
@@ -63,10 +86,12 @@ const [selectedOption, setSelectedOption] = useState('');
                 <div className='divider' ></div>
             </div>
                 <div className='movies-center' >
-                    <SearchMovies searchQuery={searchQuery} genre={genre} movies={movies} />
+                    <SearchMovies searchQuery={searchQuery} genre={genre} showType={showType} movies={movies} />
                 </div>
         </div>
         <Footer />
     </div>
   )
 }
+
+export default HomePage;
