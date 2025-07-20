@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div>
         <div className='nav-content' >
-          <img style={{height:60,width:170,marginLeft:20,marginTop:5}}src={require("../Assets/Images/Cinemaverse.jpeg")}></img>
+          <img style={{height:60,width:170,marginLeft:20,marginTop:5}} alt=''  src={'https://www.sterkinekor.com/static/img/sk-logo.png'} ></img>
            <div className='nav-center'>
             <h4 className='nav-links'>HOME</h4>
             <h4 className='nav-links'>COMPETITIONS</h4>
@@ -17,9 +17,9 @@ export default function Navbar() {
           </div>
           <h4 style={{marginTop:27,marginRight:-20}} ><span style={{color:'#0089d0'}} >300</span> POINTS</h4>
             <select className='nav-user' >
-                <option hidden={true} ><h4>Bokang Modise</h4></option>
-                <option><h3>MY DASHBOARD</h3></option>
-                <option><h3>SIGN OUT</h3></option>
+                <option hidden={true} >Bokang Modise</option>
+                <option>MY DASHBOARD</option>
+                <option>SIGN OUT</option>
             </select>
            
         </div>

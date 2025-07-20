@@ -11,7 +11,6 @@ body{
 .home-carousel{
     height: 400px;
     width: 100%;
-    background-color: white;
     display: flex;
 }
 
@@ -147,7 +146,9 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     width: 83.5%;
     height: auto;
     display: grid;
-    grid-template-columns: 0fr 0fr 0fr 0fr 0fr 0fr;
+    grid-template-columns: 0fr 0fr 0fr 0fr 0fr;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .carousel-image{
@@ -160,6 +161,11 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     width: 201px;
     height: 400px;
     display: inline-block;
+}
+
+.movie-card:hover{
+    transform: scale(1.1);
+    transition-duration: 400ms;
 }
 
 .movie-card-pic{

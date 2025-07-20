@@ -2,16 +2,32 @@ body{
     overflow-y:auto;
 }
 
+.curvedLine{
+    margin-left: 10%;
+    width: 85%;
+    height: 170px;
+    background: #16191c;
+}
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+.titleHeaders{
+    margin-left: 5%;
+}
+
 .MainCenter{
-    width: 90%;
+    display: flex;
+    width: 100%;
     height: 1000;
     background-color: #0B0D0A;
 }
 .PageBlock{
     margin-top: 25%;
     margin-left: 9%;
-    width: 60%;
-    height: 1000px;
+    width: 58%;
+    height: 1140px;
     margin-bottom: 150px;
     background-color: #16191c
 }
@@ -31,26 +47,49 @@ body{
     height: 23px;
 }
 
+.ChairContainer:hover{
+    cursor: pointer;
+}
+
 .SeatHead{
     border-radius: 50px;
     margin-left: 1px;
     margin-top: 2px;
-    width: 23px;
+    width: 24px;
     height: 4px;
     background-color: #a9abae;
 
 }
 .SeatBody{
+    font-size: 9px;
+    text-align: center;
     border-radius: 3px;
-    width: 25px;
-    height: 13px;
+    width: 26px;
+    height: 14px;
     background-color: #a9abae;
+    color: #0B0D0A;
 
 }
 
 .DetailsBlock{
-    margin-left: 75%;
+    margin-left: 40px;
+    margin-top: 25%;
     width: 20%;
-    height: 300px;
-    background-color: purple;
+    height: 590px;
+    background-color: #16191c;
+}
+
+.detailsImage{
+    margin-left: 5%;
+    width: 40%;
+}
+
+.bookingButton{
+    margin-top: 10%;
+    margin-left: 5%;
+    background-color: aqua;
+    height: 10%;
+    width: 90%;
+    border-radius: 4%;
+    
 }
